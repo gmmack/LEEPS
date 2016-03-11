@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Where'd It Go?</title>
+ 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="flot/jquery.flot.js"></script>
+<script type="text/javascript" src="flot/jquery.flot.time.js"></script>
+<script type="text/javascript" src="flot/jquery.flot.axislabels.js"></script>
+<script type="text/javascript" src="WheredItGo.js"></script>
+
+</head>
+<body>
+    <div>Enter a number [0,1) and press Enter to set the value, then click Start to begin the simulation</div>
+	<input name="Select a value [0,1)" type="text" maxlength="512" id="userSelectID"></input>
+	<input type="button" value="Start" id="btn1"></input>
+	<input type="button" value="Stop" id="btn2"></input>
+	<input type="button" value="Reset" id="btn3"></input>
+	<div id="show_profit">Profit = <span></span></div>
+	<div id="flot-placeholder" style="width:600px;height:300px"></div>
+	<div id="flot-placeholder2" style="width:600px;height:300px"></div>
+</body>
+</html>
